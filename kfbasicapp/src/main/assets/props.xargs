@@ -1,0 +1,21 @@
+# Property file for Knopflerfish framework on android.
+#
+# Add framework (-F) and system (-D) properties here.
+
+# Resolve problem on Android JVM
+-Forg.knopflerfish.framework.is_doublechecked_locking_safe=true
+
+-Forg.knopflerfish.consoletelnet.port=2323
+-Forg.osgi.service.http.port=1080
+-Forg.knopflerfish.log.file=true
+-Forg.knopflerfish.log.level=DEBUG
+-Forg.knopflerfish.log.grabio=true
+-Forg.knopflerfish.log.out=true
+-Forg.knopflerfish.framework.main.verbosity=2
+
+-Forg.knopflerfish.framework.debug.packages=true
+-Forg.knopflerfish.framework.debug.errors=true
+-Forg.knopflerfish.framework.debug.classloader=true
+-Forg.knopflerfish.framework.debug.startlevel=true
+-Forg.knopflerfish.log.file=true
+-Forg.knopflerfish.log.file.dir=/sdcard/knopf
